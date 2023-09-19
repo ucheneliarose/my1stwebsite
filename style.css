@@ -1,0 +1,14 @@
+
+.para-name{
+    background-color:crimson;
+}
+button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+table,th,tr,td{
+    border: 1px solid black ;
+}
