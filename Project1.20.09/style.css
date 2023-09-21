@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+/* Base styles that apply to all screen sizes */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: beige;
+    border: 5px solid darkolivegreen;
+    margin: 0;
+    padding: 0;
+}
+
+.preheader {
+    text-align: center;
+}
+
+.preheader h1 {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.preheader nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.search {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.search form input {
+    background-color: #f0f0f0;
+    height: 40px;
+    border: none;
+    width: 40%;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.search form button {
+    border: none;
+    width: 100px;
+    background-color: rgb(170, 188, 68);
+    color: white;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+}
+
+section .each-book {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+section .each-book .info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section .each-book .info h3 {
+    font-weight: 900;
+}
+
+section .each-book .info h2 {
+    font-weight: 900;
+    color: chocolate;
+}
+
+section .each-book img {
+    width: 150px;
+    height: auto;
+}
+
+.each-book {
+    text-align: center;
+}
+
+.each-book img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .preheader > h1 {
+        color: aqua;
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    section .each-book {
+        flex-direction: column;
+    }
+
+    section .each-book img {
+        margin-bottom: 20px;
+    }
+
+    section .each-book .info {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 720px) {
+    .preheader > h1 {
+        color: purple;
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    section {
+        width: 92%;
+    }
+
+    section .each-book {
+        flex-direction: column;
+    }
+
+    section .each-book img {
+        margin-bottom: 20px;
+    }
+
+    section .each-book .info {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 994px) {
+    .section-class { 
+        width: 80%;
+    }
+}

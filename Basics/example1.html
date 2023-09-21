@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+        .first-div, .second-div {
+            color: blueviolet;
+            font-family: 'Lato', sans-serif;
+        }
+           .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid #333;
+            
+        }
+
+        .flex-container.inline {
+            display: inline-flex;
+        }
+
+        .flex-item {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            background-color: #3498db;
+            fill: beige;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            border-radius: 50%
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+
+    <div class="flex-container inline">
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+        <div class="flex-item"></div>
+    </div>
+        
+        </style>
+</head>
+<body>
+    <div class="first-div">
+        <p> This is an example</p>
+        <p> This is a subtitle </p>
+    </div>
+
+    <div class="second-div">
+        <h1> This is a topic</h1>
+        <p> This is another subtopic</p>
+    </div>
+</body>
